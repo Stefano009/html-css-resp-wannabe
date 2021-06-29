@@ -83,18 +83,20 @@ img {
 /* /common */
 /* first-row */
   .left,
-  .right {
-    word-wrap: normal;
+  .right,
+  h1,
+  h3 {
+    word-wrap: break-word;
   }
 
 
   body{
-    width: 420px;
+    width: 100%;
   }
 
   .row{
     margin: 0 auto;
-    width: 420px;
+    width: 100%;
     padding: 0 5px 5px;
   }
   .container,
@@ -113,6 +115,9 @@ img {
   #steps .row>.central,
   #steps .row>.right {
   float: none;
+  width: 100%;
+}
+img{
   width: 100%;
 }
 
