@@ -89,7 +89,7 @@ img {
 
 
   body{
-    width: 420px;
+    width: 100%;
   }
 
   .row{
@@ -114,6 +114,60 @@ img {
   #steps .row>.right {
   float: none;
   width: 100%;
+}
+
+}
+@media ( min-width: 421px) and (max-width: 768px) {
+  /* common */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+/* /common */
+/* first-row */
+  .left,
+  .right {
+    word-wrap: normal;
+  }
+
+
+  body{
+    width: 100%;
+  }
+
+  .row{
+    margin: 0 auto;
+    width: 420px;
+    padding: 0 5px 5px;
+  }
+  .container.grey {
+    background-color: hotpink;
+    border: solid 5px black;
+    margin-bottom: 2px;
+  }
+
+  .container,
+  #why {
+    background-color: goldenrod;
+    border: solid 5px black;
+    margin-bottom: 2px;
+  }
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    margin: 0 auto;
+    width: 100%;
+    float: none;
+    
+  }
+  /* /first-row */
+  /* second-row */
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+  float: none;
+  width: 100%;
+
 }
 
 }
