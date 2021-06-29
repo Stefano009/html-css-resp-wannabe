@@ -115,7 +115,8 @@ img {
 }
   
   img {
-    width: 100%;
+    width: 50%;
+    height: 50%;
   }
 
 }
@@ -152,8 +153,7 @@ img {
 
   .container,
   #why {
-    /* background-color: goldenrod;
-    border: solid 5px black; */
+    background-color: #F2F2CD;
     margin-bottom: 2px;
   }
   #lezioni .row>.left,
