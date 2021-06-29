@@ -108,4 +108,12 @@ img {
     float: none;
   }
   /* /first-row */
+  /* second-row */
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+  float: none;
+  width: 100%;
+}
+
 }
