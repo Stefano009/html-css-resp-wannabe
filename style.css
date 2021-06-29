@@ -71,3 +71,41 @@ img {
 .clear {
   clear: both;
 }
+/* Responsive adds */
+
+@media all and ( max-width: 420px) {
+  /* common */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+/* /common */
+/* first-row */
+  .left,
+  .right {
+    word-wrap: normal;
+  }
+
+
+  body{
+    width: 420px;
+  }
+
+  .row{
+    margin: 0 auto;
+    width: 420px;
+    padding: 0 5px;
+  }
+  .container,
+  #why {
+    background-color: #F2F2CD;
+  }
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    margin: 0 auto;
+    width: 100%;
+    float: none;
+  }
+  /* /first-row */
+}
